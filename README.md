@@ -1,0 +1,2 @@
+# golangko
+golang korean translation
