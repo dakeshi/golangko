@@ -35,12 +35,12 @@ export GOPATH=$HOME/go
 
 GOPATH를 정의할 때는 몇 가지 주의사항이 있습니다.
 
-* GOROOT(go가 설치된 디렉토리)와는 다른 경로를 지정해야 합니다.
+* GOROOT(go가 설치된 디렉터리)와는 다른 경로를 지정해야 합니다.
 * 환경변수 GOROOT를 사용하면 안됩니다.
 * `~/some/path`와 같은 설정은 동작하지 않습니다. 대신, `$HOME/some/path` 로 설정하세요.
 
 # GOBIN
-GOBIN은 `go install` 명령을 실행했을 때 바이너리 파일이 생성되는 디렉터리를 설정하는 환경변수입니다. Unix에서는 기본적으로 $HOME/go/bin 디렉토리가 설정됩니다.
+GOBIN은 `go install` 명령을 실행했을 때 바이너리 파일이 생성되는 디렉터리를 설정하는 환경변수입니다. Unix에서는 기본적으로 $HOME/go/bin 디렉터리가 설정됩니다.
 
 ```bash
 $ go env | grep GOBIN
